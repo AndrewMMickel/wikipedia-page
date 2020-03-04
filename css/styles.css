@@ -19,6 +19,15 @@ html, body {
     direction: ltr;
 }
 
-div {
-    display: block;
+element.style {
+    clear: both;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 1.2em 0 6px;
+    min-width: 47em;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #000;
+    white-space: nowrap;
 }
