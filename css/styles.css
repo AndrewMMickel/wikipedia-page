@@ -4,3 +4,21 @@ html, body {
     padding: 0;
     font-family: sans-serif;
 }
+
+#panel {
+    position: absolute;
+    top: 0;
+    width: 10em;
+    left: 0;
+    font-size: inherit;
+}
+
+.body {
+    margin: 0 0.6em 0 0.7em;
+    padding: 0.25em 0;
+    direction: ltr;
+}
+
+div {
+    display: block;
+}
