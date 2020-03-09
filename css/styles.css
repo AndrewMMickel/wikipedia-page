@@ -8,9 +8,13 @@ html, body {
 #panel {
     position: absolute;
     top: 0;
-    width: 10em;
+    width: 8em;
     left: 0;
     font-size: inherit;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #000;
 }
 
 .body {
@@ -30,4 +34,11 @@ element.style {
     background-color: #f9f9f9;
     color: #000;
     white-space: nowrap;
+}
+
+.row {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #000;
 }
